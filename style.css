@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: #f5f6fa;
   color: #111;
   padding: 20px 40px;
@@ -75,20 +75,20 @@ main h1 {
 }
 
 main h2{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 40px;
     font-size: 2rem;
 }
 
 main h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    font-size: 1.35rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
 }
 
 
 main p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     text-indent: 20px
 }
