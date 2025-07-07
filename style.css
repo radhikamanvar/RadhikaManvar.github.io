@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family:'Times New Roman', Times, serif;
   background-color: #f5f6fa;
   color: #111;
   padding: 20px 40px;
@@ -65,7 +65,7 @@ nav a.nav-link:hover {
 }
 
 .project{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 /* Main content */
 main {
@@ -73,11 +73,21 @@ main {
 }
 
 main h1 {
-  font-size: 2.5rem;
+  font-size: 5rem;
   margin-bottom: 10px;
 }
 
+main h2{
+    font-size: 2.5rem;
+}
+
+main h3{
+    font-size: 2rem;
+}
+
+
 main p {
-  font-style: italic;
+  font-style: normal;
   font-size: 1.2rem;
+  text-indent: 20px
 }
