@@ -33,7 +33,7 @@ body {
 
 .logo {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.2rem;
+  font-size: 1.3rem; /* Only a bit larger than nav-link */
   color: #fff;
   letter-spacing: 1px;
 }
@@ -71,14 +71,15 @@ main {
   background: rgba(44, 62, 120, 0.7);
   border-radius: 8px;
   padding: 36px 32px;
-  margin: 80px auto 0 auto;
+  margin: 0 0 0 40px; /* Align with .welcome-title and remove top margin */
   max-width: 600px;
   box-shadow: 0 4px 24px rgba(44, 62, 120, 0.15);
+  text-align: left;
 }
 
 .welcome-box h1 {
   font-family: 'Shrikhand', cursive;
-  font-size: 3.2rem;
+  font-size: 5rem;
   color: #e3e8ff;
   text-align: left;
   margin-bottom: 18px;
@@ -88,7 +89,7 @@ main {
 .bio-text p {
   font-family: 'Canva Sans', Arial, sans-serif;
   font-size: 1.05rem;
-  color: #e3e8ff;
+  color: #c1d4e8;
   margin-bottom: 16px;
   text-indent: 0;
 }
@@ -108,7 +109,7 @@ main {
 
 .projects-title, .resume-title, .tutoring-title {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #e3e8ff;
   margin-bottom: 32px;
   margin-top: 0;
@@ -189,7 +190,7 @@ main section ul {
 /* Add .welcome-title for the main page title */
 .welcome-title {
   font-family: 'Shrikhand', cursive;
-  font-size: 3.2rem;
+  font-size: 9.6rem; /* Triple the previous 3.2rem */
   color: #313e91;
   -webkit-text-stroke: 1.5px #c1d4e8;
   text-stroke: 1.5px #c1d4e8;
@@ -198,9 +199,9 @@ main section ul {
     -1px 1px 0 #c1d4e8,
     1px -1px 0 #c1d4e8,
     -1px -1px 0 #c1d4e8;
-  margin-left: 0;
+  margin-left: 40px; /* Push further left */
   margin-top: 60px;
-  margin-bottom: 0;
+  margin-bottom: 60px; /* More space below title */
   text-align: left;
 }
 
@@ -237,7 +238,7 @@ nav a.nav-link, .project-button, .footer, main section h2, .project-section h2 {
 
 /* Welcome box left alignment */
 .welcome-box {
-  margin: 80px 0 0 0;
+  margin: 0 0 0 40px; /* Align with .welcome-title and remove top margin */
   margin-left: 0;
   max-width: 600px;
   text-align: left;
@@ -251,6 +252,7 @@ nav a.nav-link, .project-button, .footer, main section h2, .project-section h2 {
   }
   .welcome-box, .project-section, main section {
     max-width: 98vw;
+    margin-left: 0;
   }
   .logo, .projects-title, .resume-title, .tutoring-title, .welcome-title {
     font-size: 2rem;
