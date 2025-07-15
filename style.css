@@ -17,8 +17,7 @@ body {
 }
 
 .welcome-bg, .projects-bg, .resume-bg, .tutoring-bg {
-  background: linear-gradient(180deg, #5a6edc 0%, #6e7fdc 100%);
-  min-height: 100vh;
+  background: #6173cc;
 }
 
 .navbar {
@@ -91,7 +90,7 @@ main {
   font-size: 1.05rem;
   color: #c1d4e8;
   margin-bottom: 16px;
-  text-indent: 0;
+  text-indent: 5px;
 }
 
 .footer {
@@ -176,15 +175,7 @@ main section p, main section ul, main section li {
   color: #e3e8ff;
   font-size: 1rem;
   margin-bottom: 8px;
-}
-main section ul {
   padding-left: 20px;
-}
-
-.tutoring-title {
-  margin-top: 60px;
-  text-align: left;
-  font-size: 2.5rem;
 }
 
 /* Add .welcome-title for the main page title */
@@ -193,7 +184,6 @@ main section ul {
   font-size: 9.6rem; /* Triple the previous 3.2rem */
   color: #313e91;
   -webkit-text-stroke: 1.5px #c1d4e8;
-  text-stroke: 1.5px #c1d4e8;
   text-shadow:
     1px 1px 0 #c1d4e8,
     -1px 1px 0 #c1d4e8,
@@ -206,12 +196,11 @@ main section ul {
 }
 
 /* Make all titles larger */
-.projects-title, .resume-title, .tutoring-title, .welcome-title, .logo {
+.projects-title, .resume-title, .tutoring-title {
   font-family: 'Shrikhand', cursive;
   font-size: 3.5rem;
   color: #313e91;
   -webkit-text-stroke: 1.5px #c1d4e8;
-  text-stroke: 1.5px #c1d4e8;
   text-shadow:
     1px 1px 0 #c1d4e8,
     -1px 1px 0 #c1d4e8,
@@ -225,36 +214,12 @@ main section ul {
 
 /* All non-title text uses Canva Sans and color #c1d4e8 */
 body, .bio-text p, .footer, .project-section p, .project-button, main section p, main section ul, main section li, nav a.nav-link, main section h2, .project-section h2, .resume-title b, .resume-title em, .resume-title ul, .resume-title li {
-  font-family: 'Canva Sans', Arial, sans-serif !important;
-  color: #c1d4e8 !important;
+  font-family: 'Canva Sans', Arial, sans-serif;
+  color: #c1d4e8;
 }
 
 /* Remove text-stroke from nav links and buttons */
 nav a.nav-link, .project-button, .footer, main section h2, .project-section h2 {
   -webkit-text-stroke: 0;
-  text-stroke: 0;
   text-shadow: none;
-}
-
-/* Welcome box left alignment */
-.welcome-box {
-  margin: 0 0 0 40px; /* Align with .welcome-title and remove top margin */
-  margin-left: 0;
-  max-width: 600px;
-  text-align: left;
-}
-
-/* Responsive: keep left alignment on mobile and adjust title size */
-@media (max-width: 700px) {
-  .navbar, main, .welcome-box, .project-section, main section {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .welcome-box, .project-section, main section {
-    max-width: 98vw;
-    margin-left: 0;
-  }
-  .logo, .projects-title, .resume-title, .tutoring-title, .welcome-title {
-    font-size: 2rem;
-  }
 }
