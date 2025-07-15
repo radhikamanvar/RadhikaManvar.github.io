@@ -186,6 +186,57 @@ main section ul {
   font-size: 2.5rem;
 }
 
+/* Add .welcome-title for the main page title */
+.welcome-title {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.2rem;
+  color: #313e91;
+  -webkit-text-stroke: 1.5px #c1d4e8;
+  text-stroke: 1.5px #c1d4e8;
+  text-shadow:
+    1px 1px 0 #c1d4e8,
+    -1px 1px 0 #c1d4e8,
+    1px -1px 0 #c1d4e8,
+    -1px -1px 0 #c1d4e8;
+  margin-left: 0;
+  margin-top: 60px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* Remove .welcome-box h1 from the title styles if needed */
+.projects-title, .resume-title, .tutoring-title, .logo {
+  color: #313e91;
+  -webkit-text-stroke: 1.5px #c1d4e8;
+  text-stroke: 1.5px #c1d4e8;
+  text-shadow:
+    1px 1px 0 #c1d4e8,
+    -1px 1px 0 #c1d4e8,
+    1px -1px 0 #c1d4e8,
+    -1px -1px 0 #c1d4e8;
+}
+
+/* Non-title text color */
+body, .bio-text p, .footer, .project-section p, .project-button, main section p, main section ul, main section li, nav a.nav-link {
+  color: #c1d4e8;
+}
+
+/* Remove text-stroke from nav links and buttons */
+nav a.nav-link, .project-button, .footer {
+  -webkit-text-stroke: 0;
+  text-stroke: 0;
+  text-shadow: none;
+}
+
+/* Welcome box left alignment */
+.welcome-box {
+  margin: 80px 0 0 0;
+  margin-left: 0;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Responsive: keep left alignment on mobile */
 @media (max-width: 700px) {
   .navbar, main, .welcome-box, .project-section, main section {
     padding-left: 10px;
