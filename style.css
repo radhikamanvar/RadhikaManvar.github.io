@@ -88,6 +88,7 @@ main {
   font-family: 'Canva Sans', Arial, sans-serif;
   font-size: 1.05rem;
   color: #c1d4e8;
+  margin-top: 70px;
   margin-bottom: 16px;
   text-indent: 5px;
 }
@@ -101,7 +102,7 @@ main {
   position: bottom;
   font-size: 1rem;
   font-family: 'Canva Sans', Arial, sans-serif;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .projects-title, .resume-title, .tutoring-title {
