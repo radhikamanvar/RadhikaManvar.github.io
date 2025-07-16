@@ -98,9 +98,7 @@ main {
   color: #e3e8ff;
   text-align: center;
   padding: 18px 0 10px 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: bottom;
   font-size: 1rem;
   font-family: 'Canva Sans', Arial, sans-serif;
 }
