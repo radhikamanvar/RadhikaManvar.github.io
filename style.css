@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 40px 0 40px;
+  padding: 18px 40px 18px 40px;
   box-sizing: border-box;
 }
 
@@ -68,9 +68,10 @@ main {
 
 .welcome-box {
   background: rgba(44, 62, 120, 0.7);
+  margin-top: 70px;
   border-radius: 8px;
   padding: 55px 50px;
-  margin: 0 0 0 95px; 
+  margin-left:40px; 
   box-shadow: 0 4px 24px rgba(44, 62, 120, 0.15);
   text-align: left;
 }
@@ -88,7 +89,6 @@ main {
   font-family: 'Canva Sans', Arial, sans-serif;
   font-size: 1.05rem;
   color: #c1d4e8;
-  margin-top: 70px;
   margin-bottom: 16px;
   text-indent: 5px;
 }
@@ -146,10 +146,6 @@ main {
 }
 .project-button:hover {
   background: #3d4e9e;
-}
-
-.resume-title {
-  margin-bottom: 18px;
 }
 
 main section {
