@@ -101,6 +101,7 @@ main {
   position: bottom;
   font-size: 1rem;
   font-family: 'Canva Sans', Arial, sans-serif;
+  margin-top: 50px;
 }
 
 .projects-title, .resume-title, .tutoring-title {
